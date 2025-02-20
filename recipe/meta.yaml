@@ -1,5 +1,5 @@
 {% set name = "znflow" %}
-{% set version = "0.2.4" %}
+{% set version = "0.2.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/znflow-{{ version }}.tar.gz
-  sha256: 1ec2c0c261a03e5e7dcb6d28e63163ee9f0af85987132bd5f8975561e4193006
+  sha256: 6e6773fe29333041292046785efbd9e83ddafac9a9345d153cd7e077b62544d5
 
 build:
   noarch: python
